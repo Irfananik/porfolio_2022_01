@@ -1,0 +1,137 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Karla', sans-serif;
+}
+
+/*--head-section--*/
+.head-section{
+    display: flex;
+    background-color:rgb(185, 184, 184);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.half-section{
+    width:50%;
+}
+.half-section h1{
+    font-size:50px;
+    color: rgb(11, 144, 144);
+    font-weight:bolder;
+    margin-top:60px;
+    margin-left: 50px;
+}
+.half-section p{
+    font-size:16px;
+    color: rgb(240, 248, 255);
+    text-align: justify;
+    margin-left: 50px;
+    padding-bottom:10px;
+}
+.btn{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size:20px;
+    font-weight:bolder;
+    color: #fff;
+    background-image: linear-gradient(tomato,red);
+    padding: 10px;
+    border-radius:5px;
+}
+
+.banner-img{
+    margin-left:100px;
+}
+
+/*--skill--*/
+.skill-section h1{
+    text-align:center;
+    color: rgb(83, 83, 83);
+    font-size: 50px;
+}
+.skill-part{
+    display:flex;
+    padding: 20px;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    
+}
+
+.skill-div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px;
+    
+}
+
+.skill-div h1{
+    font-size:26px;
+    color: rgb(92, 87, 87);
+}
+.skill-div p{
+    font-size:16px;
+    color: rgb(143, 143, 143);
+    text-align: justify;
+    width: 80%;
+}
+.btn1{
+    text-decoration: none;
+    font-size:14px;
+    font-weight:bolder;
+    color: #fff;
+    background-image: linear-gradient(tomato,red);
+    padding: 8px;
+    border-radius:5px;
+}
+
+/*--feedback*/
+.feedback-section{
+    background-color: rgb(165, 169, 172);
+    width: 40%;
+    height: 500px;
+    margin-left: 550px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.feedback-h{
+    font-size:26px;
+    color: #fff;
+    text-align: center;
+}
+.feedback-form{
+    margin-left:145px;
+}
+
+.feedback-form form label{
+    font-size:28px;
+    color: #fff;
+   
+}
+.feedback-form form input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius:3px;
+}
+.feedback-form form textarea{
+    width: 350px;
+    height: 100px;
+    border: none;
+    border-radius:3px;
+}
+
+footer{
+    margin-top:10px;
+    background-color: rgb(80, 75, 75);
+    width: 96%;
+    height: 200px;
+    padding:30px;
+}
+
+footer p{
+    color: rgb(231, 228, 228);
+    font-size:18px;
+    text-align: center;
+    margin-top:200px;
+    
+}
